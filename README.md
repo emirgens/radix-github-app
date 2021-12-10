@@ -28,3 +28,4 @@ Note that you need to update the personal token in `.env` about once an hour. If
 ```bash
 az account get-access-token | jq -r .accessToken | pbcopy
 ```
+
